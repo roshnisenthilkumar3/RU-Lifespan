@@ -11,6 +11,9 @@ backend/.venv/
 # Raw data - never commit
 backend/data/raw/
 
+# Processed data
+backend/data/processed/
+
 # Model artifacts
 backend/models/*.pkl
 backend/models/*.joblib
@@ -34,5 +37,7 @@ build/
 
 # OS files
 .DS_Store
-Thumbs.db
+Thumbs.dbpwd
+
+
 
